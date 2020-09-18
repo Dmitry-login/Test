@@ -1,0 +1,117 @@
+.reg{
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+}
+.reg h1{
+	color: #682480;
+	font-size: 54px;
+    line-height: 20px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    font-family: Nunito;
+    font-style: normal; 
+}
+.reg input[type="text"],
+.reg input[type="password"],
+.reg input[type="email"]{
+	
+	border-radius: 50px;
+	border: 1px solid #C1C1C1;
+	width: 382px;
+	height: 50px;
+	margin: 15px;
+}
+.reg input[type="submit"]{
+	display: inline-block;
+	width: 233.5px;
+	height: 50px;
+	background: #E21876;
+	border-radius: 50px;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+	margin-top: 40px;
+}
+.reg strong{
+	font-size: 16px;
+	line-height: 137%;
+	color: #000000;
+	margin-left: 10px;
+}
+.processing{
+	margin-top: 30px;
+	margin-left: 30px;
+}
+.reg input{
+	margin-left: auto;
+	margin-right: auto;
+}
+.reg input[type="text"]::-webkit-input-placeholder{
+	padding-left: 25px;
+}
+.reg input[type="password"]::-webkit-input-placeholder{
+	padding-left: 25px;
+}	
+.reg input[type="email"]::-webkit-input-placeholder{
+	padding-left: 25px;
+}
+.reg input[type="checkbox"]:before{
+	border: 1px solid #C1C1C1;
+	border-radius: 2px;
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	display: inline;
+	margin-right: 10px;
+}		
+.reg .web{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 165px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.reg .web li a img{
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+}
+.reg .web li{
+	display: inline-block;
+}
+.hide {
+	background: rgba(0, 0, 0, .5);
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+  	display: none;
+}
+.window {
+	background: white;
+	width: 70%;
+	margin: 0 auto;
+	position: absolute;
+	left: 15%;
+	top: 5%;
+	opacity: 111;
+	z-index: 9999;
+    display: none;
+	box-shadow: 7px 7px 5px rgba(0,0,0,0.6);
+}
+ .close{
+	width: 46px;
+	height: 46px;
+	background: #FFFFFF;
+	border: 1px solid #D8D8D8;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 0px 3px 4px rgba(193, 193, 193, 0.25);
+	position: absolute;
+	top: 80px;
+	right: 150px;
+	font-size: 32px;
+}
+

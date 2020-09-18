@@ -1,0 +1,40 @@
+@media screen and (max-width: 1200px){
+	.menu{
+		width: 1200px;
+	}
+	.header-top{
+		width: 1200px;
+	}
+	.footer{
+		width: 1200px;	
+	}
+	.info-block{
+		width: 1200px;
+	}
+	.header-content input[type="search"]{
+		width: 500px;
+		display: flex;
+		
+	}
+	.header-basket{
+		display: flex;
+	}
+	.header-content .logo{
+		
+	}
+	.header-content .header-basket li{
+		display: inline-block;
+	}
+	.number{
+		opacity: 0;
+	}
+	.menu .nav{
+		padding-left: 300px;
+	}
+	.footer .web{
+		opacity: 0;
+	}
+}
+@media screen and (max-width: 980px){
+	
+}
